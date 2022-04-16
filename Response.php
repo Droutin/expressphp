@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Response Class
  *
@@ -67,8 +66,6 @@ class Response
             header($key . ':' . $value);
         }
         echo $content;
-
-        ob_end_flush();
     }
 
     /**
@@ -94,7 +91,7 @@ class Response
                 /**
                  * Case default, no view engine is used, we serve PHP view files
                  */
-                include '../' . $this->views . '/' . $template . '.php';
+                include $this->views . '/' . $template . '.php';
                 break;
             case 'smarty':
                 /**
