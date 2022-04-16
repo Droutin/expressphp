@@ -10,7 +10,7 @@
  * @license MIT
  */
 
-namespace Express;
+namespace ExpressPHP;
 
 class Request
 {

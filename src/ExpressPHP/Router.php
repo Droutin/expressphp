@@ -14,7 +14,7 @@
  *
  */
 
-namespace Express;
+namespace ExpressPHP;
 
 class Router
 {

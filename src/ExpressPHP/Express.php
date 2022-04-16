@@ -1,8 +1,8 @@
 <?php
 /**
- * Express Class
+ * App Class
  *
- * The Express class is the main entry point to Express PHP Framework. It is used to create the Express Object
+ * The App class is the main entry point to Express PHP Framework. It is used to create the Express Object
  * which constructs the Express PHP frame work, providing route methods to ignite middle wares and router,
  * imports Express PHP modules, used in setting and getting Express PHP Configurations...
  *
@@ -10,9 +10,9 @@
  * @license MIT
  */
 
-namespace Express;
+namespace ExpressPHP;
 
-class Express
+class App
 {
     /**
      * @var string Express base path
